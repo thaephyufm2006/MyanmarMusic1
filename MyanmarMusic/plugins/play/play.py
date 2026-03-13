@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from MyanmarMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from MyanmarMusic import Apple, Resso, SoundCloud, Telegram, YouTube, app
 from MyanmarMusic.core.call import Hotty
 from MyanmarMusic.utils import seconds_to_min, time_to_seconds
 from MyanmarMusic.utils.channelplay import get_channeplayCB
